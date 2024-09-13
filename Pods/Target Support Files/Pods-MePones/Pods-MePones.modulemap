@@ -1,0 +1,6 @@
+framework module Pods_MePones {
+  umbrella header "Pods-MePones-umbrella.h"
+
+  export *
+  module * { export * }
+}
