@@ -6,5 +6,8 @@ target 'MePones' do
   use_frameworks!
 
   # Pods for MePones
+  # Add the Firebase pod for Google Analytics
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseAuth'
 
 end

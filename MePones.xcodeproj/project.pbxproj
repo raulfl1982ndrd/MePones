@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		6CBBD4802C94422800915EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBD47F2C94422800915EAB /* AppDelegate.swift */; };
 		6CBBD4822C94422800915EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBD4812C94422800915EAB /* SceneDelegate.swift */; };
-		6CBBD4842C94422800915EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBD4832C94422800915EAB /* ViewController.swift */; };
+		6CBBD4842C94422800915EAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBBD4832C94422800915EAB /* LoginViewController.swift */; };
 		6CBBD4872C94422800915EAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBD4862C94422800915EAB /* Base */; };
 		6CBBD4892C94422900915EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBD4882C94422900915EAB /* Assets.xcassets */; };
 		6CBBD48C2C94422900915EAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBD48B2C94422900915EAB /* Base */; };
+		6CBBD4942C9458ED00915EAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBD4932C9458ED00915EAB /* GoogleService-Info.plist */; };
 		A698E5B43E4913300F9A467B /* Pods_MePones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4233EA13280DE68E3F5E60 /* Pods_MePones.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +22,12 @@
 		6CBBD47C2C94422800915EAB /* MePones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MePones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBBD47F2C94422800915EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CBBD4812C94422800915EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CBBD4832C94422800915EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CBBD4832C94422800915EAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6CBBD4862C94422800915EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CBBD4882C94422900915EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CBBD48B2C94422900915EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CBBD48D2C94422900915EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBBD4932C9458ED00915EAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AB27C6BAAB71EFCCFE965256 /* Pods-MePones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MePones.release.xcconfig"; path = "Target Support Files/Pods-MePones/Pods-MePones.release.xcconfig"; sourceTree = "<group>"; };
 		BE4233EA13280DE68E3F5E60 /* Pods_MePones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MePones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,7 +58,6 @@
 				5EE4D744C789808BD34B08D6 /* Pods-MePones.debug.xcconfig */,
 				AB27C6BAAB71EFCCFE965256 /* Pods-MePones.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,11 +84,12 @@
 			children = (
 				6CBBD47F2C94422800915EAB /* AppDelegate.swift */,
 				6CBBD4812C94422800915EAB /* SceneDelegate.swift */,
-				6CBBD4832C94422800915EAB /* ViewController.swift */,
+				6CBBD4832C94422800915EAB /* LoginViewController.swift */,
 				6CBBD4852C94422800915EAB /* Main.storyboard */,
 				6CBBD4882C94422900915EAB /* Assets.xcassets */,
 				6CBBD48A2C94422900915EAB /* LaunchScreen.storyboard */,
 				6CBBD48D2C94422900915EAB /* Info.plist */,
+				6CBBD4932C9458ED00915EAB /* GoogleService-Info.plist */,
 			);
 			path = MePones;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				6CBBD4782C94422800915EAB /* Sources */,
 				6CBBD4792C94422800915EAB /* Frameworks */,
 				6CBBD47A2C94422800915EAB /* Resources */,
+				EC08155A52ECDAE6A5D04834 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CBBD4892C94422900915EAB /* Assets.xcassets in Resources */,
+				6CBBD4942C9458ED00915EAB /* GoogleService-Info.plist in Resources */,
 				6CBBD48C2C94422900915EAB /* Base in Resources */,
 				6CBBD4872C94422800915EAB /* Base in Resources */,
 			);
@@ -182,6 +186,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EC08155A52ECDAE6A5D04834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MePones/Pods-MePones-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MePones/Pods-MePones-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MePones/Pods-MePones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CBBD4842C94422800915EAB /* ViewController.swift in Sources */,
+				6CBBD4842C94422800915EAB /* LoginViewController.swift in Sources */,
 				6CBBD4802C94422800915EAB /* AppDelegate.swift in Sources */,
 				6CBBD4822C94422800915EAB /* SceneDelegate.swift in Sources */,
 			);
@@ -254,7 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -317,7 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -356,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MePones;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulfl1982ndrd.MePones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +405,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MePones;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raulfl1982ndrd.MePones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
